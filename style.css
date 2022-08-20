@@ -1,7 +1,11 @@
 body{
     font-family: 'Tomorrow', sans-serif;
+    margin: 0;
 }
 
+h1{
+    font-size: 50px;
+}
 .name-title{
     color: yellowgreen;
 }
@@ -23,4 +27,9 @@ section{
 
 .half-width img{
     width: 80%;
+}
+
+.top-banner{
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
 }
