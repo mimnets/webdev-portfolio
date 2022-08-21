@@ -6,6 +6,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .name-title{
     color: yellowgreen;
 }
@@ -39,4 +42,28 @@ h1{
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-item{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px goldenrod;
+}
+.experience-area{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 5px solid blue;
+}
+#baby-web-developer{
+    border-left: 5px solid tomato;
+}
+
+footer p{
+    text-align: center;
 }
